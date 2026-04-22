@@ -9,18 +9,21 @@ import Header from '../components/Header.astro';
 interface Props {
 	title: string;
 	subtitle?: string;
+	status?: 'idea' | 'draft' | 'ready' | 'published';
 	created: Date;
 	updated?: Date;
 	heroImage?: ImageMetadata;
 }
 
-const { title, subtitle, created, updated, heroImage } = Astro.props;
+const { title, subtitle, status, created, updated, heroImage } = Astro.props;
 const description = subtitle ?? title;
+const isDraft = status !== 'published';
 ---
 
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
+		{isDraft && <meta name="robots" content="noindex, nofollow" />}
 		<style>
 			main {
 				width: calc(100% - 2em);

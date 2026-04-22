@@ -7,9 +7,9 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('posts')).sort(
-	(a, b) => b.data.created.valueOf() - a.data.created.valueOf(),
-);
+const posts = (await getCollection('posts'))
+	.filter((post) => post.data.status === 'published')
+	.sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf());
 ---
 
 <html lang="en">

@@ -22,7 +22,9 @@ subtitle: How I Used AI to Turn Enterprise Account Planning on Its Head
 
 Strategic account plans are the backbone of enterprise sales. They're also expensive, time-consuming, and usually stale before the ink dries.
 
-At consulting firms, a single account plan costs $2,500-5,000. It takes weeks to produce. It's based on research that's already aging. And if you need plans for 50+ accounts? Do the math: $125,000-$250,000 and months of calendar time.
+A real McKinsey strategy engagement starts in the mid-six figures and runs six to twelve months. Even a scoped project, not a 50-account plan, is six figures minimum. Partner rates run four figures an hour. If you wanted McKinsey to produce strategic plans for 50+ enterprise accounts, you're not looking at a line item; you're looking at a seven-figure budget and a full calendar year.
+
+Short of that, the realistic menu for most sales orgs is a boutique research firm at roughly $5,000-15,000 per deep-dive, a Gartner-style subscription at $2,000-10,000 per report, or a pair of internal analysts for six months.
 
 I'm a Manager of Systems Engineering at VAST Data. I manage a team covering enterprise accounts across the United States. I needed strategic account plans for all of them. I had a budget of zero dollars and a time window of "yesterday."
 
@@ -36,35 +38,38 @@ On February 20, 2026, I opened Claude Code (Anthropic's CLI tool for Claude) and
 
 Two hours later, I had 5 account plans. They weren't perfect, but they were 80% of the way to consulting quality, and they covered real accounts my team was actively pursuing.
 
-That was 34 days ago.
+That was two months ago.
 
 ## Where We Are Today
 
-As of March 26, 2026:
+As of April 22, 2026:
 
-- **53 enterprise account plans** generated
+- **Roughly 100 enterprise account plans** generated
 - **~$7 per plan** (down from $15+ initially)
 - **30-45 minutes** per plan (vs. days/weeks manually)
-- **21 artifact types** per plan (strategic plan, executive brief, battle cards, outreach playbooks, one-pagers, PPTX decks, and more)
-- **150-460 citations** per plan, tracked and verifiable
+- **25+ artifact types** per plan (strategic plan, executive brief, battle cards, outreach playbooks, one-pagers, PPTX decks, and more)
+- **Hundreds of citations** per plan, tracked and verifiable
 - **11 modes** (full, rapid, research, competitive, update, executive, linkedin, outreach, one-pager, data-engine, stakeholders)
 - **7 MCP data sources** (Salesforce CRM, SEC EDGAR, Apollo, Companies House, Zefix, YC, web research)
-- **A live SE portal** with interactive dashboards for every account
+- **A live sales portal** with interactive dashboards for every account
 - **A CEO meeting booked** from a generated LinkedIn message (90 minutes from send to confirmed)
 
 The entire system was built through "vibe coding." I directed Claude; Claude wrote every line of code, every script, every HTML page. I wrote zero code. Claude wrote 50,000+ lines.
 
 ## The Math That Changed My Mind
 
-Here's the cost comparison that made me go from the $20/month Claude plan to $200/month:
+Here's the cost comparison that convinced me to upgrade my Claude subscription.
 
-| Approach | Cost for 53 Plans | Time |
-|----------|-------------------|------|
-| McKinsey/BCG | $132,500-$265,000 | 6-12 months |
+A note on the consulting-firm numbers below: they're estimates. Business press outlets like Bloomberg and the Financial Times periodically report McKinsey engagement minimums in the mid-six-figures and partner rates north of $1,000 an hour, but the firms don't publish rate cards. Treat these ranges as directional, not exact.
+
+| Approach | Cost for ~100 Plans | Time |
+|----------|---------------------|------|
+| McKinsey-style strategy engagement (estimated) | $1M+ (minimum), likely multi-million | 6-12+ months |
+| Boutique research firm or Gartner-style deep-dives | $100,000-$500,000 | 3-6 months |
 | Internal analyst team (2 FTEs) | $40,000-60,000 | 3-6 months |
-| My AI system | ~$400-500 total | 6 weeks, 1.5-2 hrs/day |
+| My AI system | ~$700 total | ~2 months, 1.5-2 hrs/day |
 
-The ROI isn't 2x or 5x. It's **265x**.
+The comparison isn't a clean multiple anymore. A real strategy firm won't take this scope of work for a single SE team at any price a single SE team can pay; it lives two or three orders of magnitude above my budget. What used to require a consulting firm now runs on a laptop and a coffee.
 
 And the plans aren't watered-down AI summaries. They include real Salesforce CRM data (contacts, pipeline, win history), SEC filing analysis (executive teams, financial summaries), competitive battle cards with objection handling scripts, persona-specific outreach sequences, and deal risk scorecards with weighted win probabilities.
 
@@ -77,7 +82,7 @@ Over the next 7 posts, I'll walk through the entire journey:
 3. **From One Agent to Fourteen** -- the architecture that makes $7 plans possible
 4. **MCP Servers and Live Data** -- connecting AI to Salesforce, SEC filings, and more
 5. **Markdown to Boardroom** -- automating the last mile (PowerPoint, PDF, Word)
-6. **The CEPH Takeout** -- a deep dive into competitive intelligence automation
+6. **Competitive Intelligence Automation, a Deep Dive** -- building battle cards, objection handling, and positioning at scale
 7. **Wins and Lessons** -- what worked, what didn't, and what I'd do differently
 8. **Building Your Own** -- a practical guide to getting started
 
@@ -85,7 +90,7 @@ Whether you're a sales leader, an SE, or just someone curious about what "vibe c
 
 The future of enterprise sales isn't AI replacing people. It's AI making every rep as prepared as if they had a dedicated research team behind them.
 
-For $7 instead of $2,500.
+For less than the cost of a Big Mac meal.
 
 ---
 

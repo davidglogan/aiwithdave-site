@@ -7,14 +7,12 @@ tags:
 - blog
 - practitioner-craft
 created: '2026-03-26'
-updated: '2026-04-22'
+updated: '2026-04-23'
 author: Dave Logan
 series: the-7-dollar-mckinsey-report
 series_order: 1
 subtitle: How I Used AI to Turn Enterprise Account Planning on Its Head
 ---
-# The $7 McKinsey Report
-## How I Used AI to Turn Enterprise Account Planning on Its Head
 
 *Post 1 of 8 in "The $7 McKinsey Report: A Vibe Coding Journey"*
 
@@ -93,7 +91,5 @@ The future of enterprise sales isn't AI replacing people. It's AI making every r
 For less than the cost of a Big Mac meal.
 
 ---
-
-*Next post: [The First Prompt and the Power of Persistent Memory](02-first-prompt-and-persistent-memory.md)*
 
 *Dave Logan is Manager of Systems Engineering at VAST Data. Find him at aiwithdave.com.*

@@ -38,8 +38,6 @@ Two hours later, I had 5 account plans. They weren't perfect, but they were 80% 
 
 That was two months ago.
 
-![AI/ML Initiatives page from a generated Epic Games account plan, with per-claim citation counts visible in the source column](../../assets/posts/the-7-dollar-mckinsey-report/s1c-ai-ml-initiatives.png)
-
 ## Where We Are Today
 
 As of April 22, 2026:

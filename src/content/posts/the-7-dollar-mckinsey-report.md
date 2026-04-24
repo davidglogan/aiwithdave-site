@@ -7,7 +7,7 @@ tags:
 - blog
 - practitioner-craft
 created: '2026-03-26'
-updated: '2026-04-23'
+updated: '2026-04-24'
 author: Dave Logan
 series: the-7-dollar-mckinsey-report
 series_order: 1
@@ -38,6 +38,8 @@ Two hours later, I had 5 account plans. They weren't perfect, but they were 80% 
 
 That was two months ago.
 
+![AI/ML Initiatives page from a generated Epic Games account plan, with per-claim citation counts visible in the source column](../../assets/posts/the-7-dollar-mckinsey-report/s1c-ai-ml-initiatives.png)
+
 ## Where We Are Today
 
 As of April 22, 2026:
@@ -51,6 +53,8 @@ As of April 22, 2026:
 - **7 MCP data sources** (Salesforce CRM, SEC EDGAR, Apollo, Companies House, Zefix, YC, web research)
 - **A live sales portal** with interactive dashboards for every account
 - **A CEO meeting booked** from a generated LinkedIn message (90 minutes from send to confirmed)
+
+![The live sales portal showing the index of 96 generated account plans](../../assets/posts/the-7-dollar-mckinsey-report/s2-portal-dashboard.png)
 
 The entire system was built through "vibe coding." I directed Claude; Claude wrote every line of code, every script, every HTML page. I wrote zero code. Claude wrote 50,000+ lines.
 

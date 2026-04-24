@@ -38,6 +38,8 @@ Two hours later, I had 5 account plans. They weren't perfect, but they were 80% 
 
 That was two months ago.
 
+![A page from a generated account plan, customer name redacted, showing the ai-ml-initiatives.md artifact with citation-count metadata and the plan's maturity indicators](../../assets/posts/the-7-dollar-mckinsey-report/plan-page.png)
+
 ## Where We Are Today
 
 As of April 22, 2026:
@@ -45,12 +47,14 @@ As of April 22, 2026:
 - **Roughly 100 enterprise account plans** generated
 - **~$7 per plan** (down from $15+ initially)
 - **30-45 minutes** per plan (vs. days/weeks manually)
-- **25+ artifact types** per plan (strategic plan, executive brief, battle cards, outreach playbooks, one-pagers, PPTX decks, and more)
+- **20 artifact types** per plan (strategic plan, executive brief, battle cards, outreach playbooks, one-pagers, PPTX decks, and more)
 - **Hundreds of citations** per plan, tracked and verifiable
 - **11 modes** (full, rapid, research, competitive, update, executive, linkedin, outreach, one-pager, data-engine, stakeholders)
 - **7 MCP data sources** (Salesforce CRM, SEC EDGAR, Apollo, Companies House, Zefix, YC, web research)
 - **A live sales portal** with interactive dashboards for every account
 - **A CEO meeting booked** from a generated LinkedIn message (90 minutes from send to confirmed)
+
+![The Account Planning with Claude internal portal home page, with stats (30-45m plan runtime, 32 AI agents, 20 artifact types) and eight navigation cards covering customers, install, how it works, scripts, prerequisites, MCP setup, Salesforce, and documentation](../../assets/posts/the-7-dollar-mckinsey-report/portal-home.png)
 
 The entire system was built through "vibe coding." I directed Claude; Claude wrote every line of code, every script, every HTML page. I wrote zero code. Claude wrote 50,000+ lines.
 

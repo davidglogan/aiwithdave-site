@@ -54,8 +54,6 @@ As of April 22, 2026:
 - **A live sales portal** with interactive dashboards for every account
 - **A CEO meeting booked** from a generated LinkedIn message (90 minutes from send to confirmed)
 
-![The live sales portal showing the index of 96 generated account plans](../../assets/posts/the-7-dollar-mckinsey-report/s2-portal-dashboard.png)
-
 The entire system was built through "vibe coding." I directed Claude; Claude wrote every line of code, every script, every HTML page. I wrote zero code. Claude wrote 50,000+ lines.
 
 ## The Math That Changed My Mind
